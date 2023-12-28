@@ -1,0 +1,16 @@
+* Volume-rs
+** About
+Simple CLI utility to adjust volume of the default device on pulseaudio
+** Usage
+#+BEGIN_SRC text
+Usage: volume-rs [OPTIONS]
+
+Options:
+  -s, --set <set>  Set current volume
+  -i, --inc <inc>  Increase current volume
+  -d, --dec <dec>  Decrease current volume
+  -g, --get        Get current volume
+  -m, --mute       Toggle mute
+  -h, --help       Print help
+  -V, --version    Print version
+  #+END_SRC
